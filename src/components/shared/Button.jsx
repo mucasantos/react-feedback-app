@@ -5,7 +5,7 @@ function Button({ children, version, type, isDisable }) {
     return (
         <button
             type={type}
-            disable={isDisable}
+            disabled={isDisable}
             className={`btn btn-${version}`}>
                 {children}
         </button>
